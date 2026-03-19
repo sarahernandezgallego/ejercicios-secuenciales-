@@ -1,0 +1,10 @@
+Algoritmo //programa que calcula el area y el perimetro e un triangulo segun la base y altura}
+	Escribir "Este programa calcula el area y perimetro de un triangulo"
+	escribir "digite la atura:"
+	Leer altura 
+	Escribir "digite la base:"
+	Leer base
+	area = base * altura /2
+	perimetro = base * 2 + altura * 2
+	Escribir "segun la base y altura dada el area del triangulo es ",area,"y el perimetro ",per
+FinAlgoritmo
