@@ -1,0 +1,12 @@
+Algoritmo suma_resta_multiplicacion_divicion
+	Escribir "este programa suma, resta, multiplica y divide dos numeros"
+	Escribir "digite el primer numero:"
+	Leer n1
+	Escribir "digite el segundo numero:"
+	Leer n2
+	suma = n1 + n2
+	resta = n1 - n2
+	multi = n1 * n2
+	divi = n1 / n2
+	Escribir "el resultado de suma es ",suma,"resta ",resta,"multiplicacion ",multi,"divicion " divi 
+FinAlgoritmo
