@@ -1,0 +1,9 @@
+Algoritmo hipotenusa
+	Escribir "este programa haya la hipotenusa segun sus catetos"
+	Escribir "digite el primer cateto:"
+	Leer c1
+	Escribir "digite el segundo cateto:"
+	Leer c2
+	hipo = c1 * 2 + c2 * 2 
+	Escribir "la hipotenusa es igual a: ",hipo
+FinAlgoritmo
