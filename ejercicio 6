@@ -1,0 +1,13 @@
+Proceso media 
+//este programa halla la media de 3 numeros 
+ESCRIBIR "este programa halla la media"
+ESCRIBIR "digite el primer numero:"
+LEER n1 
+ESCRIBIR "digite el segundo numero:"
+LEER n2 
+ESCRIBIR "digite el tercer numero:"
+LEER n3 
+total = n1 + n2 + n3
+media1 = total / 3
+ESCRIBIR "la media de los numeros es: ",media1
+FinProceso
