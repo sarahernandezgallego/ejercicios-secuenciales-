@@ -1,1 +1,13 @@
-
+Proceso te_saluda:D
+  //este programa te saluda segun el nombre de usuario
+  ESCRIBIR "este programa te saluda con tu nombre"
+  ESCRIBIR "como te llamas: "
+  LEER nombre 
+  ESCRIBIR "¿eres mujer o hombre?"
+  LEER genero
+  SI  genero = hombre ENTONCES 
+    ESCRIBIR "hola amiguito ",nombre," ¿como tas :)?"
+  SINO
+    ESCRIBIR "hola amiguta ",nombre," ¿como tas :)?"  
+  FINSI   
+FinProceso
