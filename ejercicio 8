@@ -1,0 +1,9 @@
+Proceso comisión  
+//este programa muestra la comision y el total de sueldo en el mes de un empleado 
+  ESCRIBIR "programa que calcula el 10% de comision y su sueldo total"
+  ESCRIBIR "digite su sueldo normal:"
+  LEER sueldo 
+  comision = sueldo * 30 /100
+  total= sueldo + comision 
+  ESCRIBIR "el comision por 3 ventas es de: ",comision,"y su sueldo total sera: ",total 
+FinProceso
