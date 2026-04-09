@@ -1,0 +1,12 @@
+Proceso hallar_horaymunuto
+//este programa me dice la hora y minutos segun los minutos ingresados 
+  DEFINIR minutos COMO ENTERO
+  ESCRIBIR "programa que dice la hora y munutos segun los minutos ingresados"
+  ESCRIBIR "digite los minutos: "
+  LEER minutos 
+  horas = TRUNC(minutos / 60)
+  res = minutos / 60 - horas 
+  minu = res * 60
+  ESCRIBIR "horas es igual a: ",horas 
+  ESCRIBIR "minutos es igual a: ",minu 
+FinProceso
