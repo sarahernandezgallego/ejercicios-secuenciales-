@@ -1,0 +1,10 @@
+//este programa te dice la raiz cuadrada y cubica de un  numero segun lo que digite el usuario 
+Algoritmo raiz 
+Definir num Como Real
+Escribir "este programa te dice la raiz cuadrada y cubica "
+Escribir "digita el numero:"
+Leer num
+cuadrada = RC((num)^2)
+cubica = RC((num)^3)
+Escribir "La raiz cuadrada de tu numero es: ",cuadrada," y la raiz cubica es: ",cubica
+FinAlgoritmo
