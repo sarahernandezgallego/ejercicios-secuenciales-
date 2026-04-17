@@ -1,0 +1,8 @@
+//muestra la distancia entre dos numeros 
+ESCRIBIR "este programa te dice cuanta distancia hay entre dos numeros "
+ESCRIBIR "digita tu primer numero:"
+LEER n1 
+ESCRIBIR "digita tu segundo numero:"
+LEER n2 
+diferencia = ABS(n1 - n2)
+ESCRIBIR "esta es la distancia que hay entre tus 2 numeros: ",diferencia 
