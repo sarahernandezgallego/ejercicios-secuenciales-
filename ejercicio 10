@@ -1,0 +1,20 @@
+//este programa calcula tu nota final segun los porcentajes de tu materia y alguna de tus calificaciones 
+ALGORITMO  calificacion_final 
+DEFINIR cali1 , cali2 , cali3 , pro , calit COMO REAL
+DEFINIR promedio1 , promedio2 , promedio3 , pro1 , calf , nototal COMO REAL 
+ESCRIBIR "este programa te dice tu calificacion final de algoritmos"
+escribir "digita tus 3 calificaciones parciales:"
+LEER cali1,cali2,cali3
+pro = cali1 + cali2 + cali3
+calit = pro / 3 
+promedio1 = (calit * 55)/100 + 1
+ESCRIBIR "digita la calificacion de tu examen final:"
+LEER examenf 
+promedio2 = (examenf * 30)/100 + 1
+ESCRIBIR "digita la calificacion de tu trabajo final: "
+LEER trabaf
+promedio3 = (trabaf * 1.15)/100 + 1
+pro1 = promedio1 + promedio2 + promedio3 
+calf = pro1/ 3
+nototal = calf * 1
+ESCRIBIR "tu nota final de algoritmo es: ",nototal
