@@ -1,0 +1,8 @@
+//este programa te dice cuanto vale tu producto aplicando un descuento de 15%
+PROCESO descuento  
+ESCRIBIR "este programa te dice cuanto tendras que pagar po tu compra con el descuento de la tienda"
+ESCRIBIR "digite el total de su compra:"
+LEER compra 
+descuento = compra * 0.15
+total = compra - descuento  
+ESCRIBIR "el total de tu compra con el descuento es: ",total 
