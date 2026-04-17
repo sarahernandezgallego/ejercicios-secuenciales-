@@ -7,13 +7,13 @@ escribir "digita tus 3 calificaciones parciales:"
 LEER cali1,cali2,cali3
 pro = cali1 + cali2 + cali3
 calit = pro / 3 
-promedio1 = (calit * 55)/100 + 1
+promedio1 = (calit * 1.55)
 ESCRIBIR "digita la calificacion de tu examen final:"
 LEER examenf 
-promedio2 = (examenf * 30)/100 + 1
+promedio2 = (examenf * 1.30)
 ESCRIBIR "digita la calificacion de tu trabajo final: "
 LEER trabaf
-promedio3 = (trabaf * 1.15)/100 + 1
+promedio3 = (trabaf * 1.15)
 pro1 = promedio1 + promedio2 + promedio3 
 calf = pro1/ 3
 nototal = calf * 1
