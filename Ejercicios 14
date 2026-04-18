@@ -1,0 +1,13 @@
+//este peograma invierte los numeros de dos digitos
+Algoritmo Invertir_Numero
+Escribir "Ingrese un número de dos cifras:"
+Leer num
+Si num >= 10 Y num <= 99 Entonces
+decenas = TRUNC(num / 10)
+unidades = (num MOD 10)
+invertido (unidades * 10) + decenas
+Escribir "El número invertido es:", invertido
+Sino
+Escribir "Error: El número debe tener exactamente dos cifras
+FinSi
+FinAlgoritmo
