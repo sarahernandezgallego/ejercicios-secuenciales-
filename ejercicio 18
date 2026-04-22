@@ -1,0 +1,16 @@
+//este programa dice las iniciales de nombre del usuario 
+Algoritmo InicialesDeNombre
+ESCRIBIR "este programa dice tus iniciales"
+    Definir nombre, apellido1, apellido2 COMO CADENA
+    Definir ini_n, ini_a1, ini_a2 COMO CADENA
+    Escribir "Introduce tu nombre:"
+    Leer nombre
+    Escribir "Introduce tu primer apellido:"
+    Leer apellido1
+    Escribir "Introduce tu segundo apellido:"
+    Leer apellido2
+    ini_n  = Subcadena(nombre, 1, 1)
+    ini_a1 = Subcadena(apellido1, 1, 1)
+    ini_a2 = Subcadena(apellido2, 1, 1)
+    Escribir "Las iniciales son: ", Mayusculas(ini_n), Mayusculas(ini_a1), Mayusculas(ini_a2)
+FinAlgoritmo
