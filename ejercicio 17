@@ -1,0 +1,21 @@
+//este programa calcula la hora de llegadade un ciclista a una cidad 
+Algoritmo CalcularLlegada
+Definir h_partida, m_partida, s_partida como Entero
+Definir t_viaje, t_total_segundos como Entero
+Definir h_llegada, m_llegada, s_llegada como Entero
+ESCRIBIR "este programa calcula a que hora llegaras a la ciudad"
+Escribir "Hora de partida (0-23):"
+Leer hpartida
+Escribir "Minutos de partida (0-59):"
+Leer mpartida
+Escribir "Segundos de partida (0-59):"
+Leer spartida
+Escribir "Tiempo de viaje en segundos:"
+Leer tviaje
+ttotalsegundos <- (hpartida * 3600) + (mpartida * 60) + spartida + tviaje
+hllegada <- TRUNC(ttotalsegundos / 3600) MOD 24
+mllegada <- TRUNC((ttotalsegundos MOD 3600) / 60)
+sllegada <- ttotalsegundos MOD 60
+Escribir "La hora de llegada a la ciudad B es: "
+Escribir hllegada, ":", mllegada, ":", sllegada
+FinAlgoritmo
