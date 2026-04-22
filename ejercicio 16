@@ -1,0 +1,14 @@
+//este programa calcula el tiempo en el que dos vehiculos se acercana
+Algoritmo dos_vehiculos
+DEFINIR v1,d,v2,velo,t COMO ENTERO  
+ESCRIBIR "este programa define en cuanto tiempo un vehiculo pasara a otro segun su distancia y velocidad"
+ESCRIBIR "digite la velocidad del vehiculo 1: "
+LEER v1
+ESCRIBIR "digite la velocudad del vehiculo 2: "
+LEER v2 
+velo = v1 - v2 
+ESCRIBIR "digite la distancia que hay entre los dos vehiculo: "
+LEER d 
+t = ABS(d/velo) 
+ESCRIBIR "el tiempo en el que el vehiculo mas rapido alcanzara al otro es: ",t
+FinAlgoritmo
