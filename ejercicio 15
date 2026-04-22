@@ -1,0 +1,13 @@
+//este programa intercambia el valor de 2 variables dadas por el usuario 
+Algoritmo intercambia_variables 
+ESCRIBIR "este programa intercambia los valores de las variables digitadas "
+ESCRIBIR "digite el valor de a:"
+LEER a 
+ESCRIBIR "digite el valor de b:"
+LEER b 
+c = a 
+a = b
+b = c 
+ESCRIBIR "el nuevo valor de a es: ",a
+ESCRIBIR "el nuevo valor de b es: ",b
+FinAlgoritmo
