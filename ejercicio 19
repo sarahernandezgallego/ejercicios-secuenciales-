@@ -1,0 +1,19 @@
+Algoritmo CalcularNotaEstudiante
+    Definir correctas, incorrectas, en_blanco Como Entero
+    Definir nota_final Como Entero
+    Escribir "Ingrese la cantidad de respuestas CORRECTAS:"
+    Leer correctas
+    Escribir "Ingrese la cantidad de respuestas INCORRECTAS:"
+    Leer incorrectas
+    Escribir "Ingrese la cantidad de respuestas EN BLANCO:"
+    Leer en_blanco
+    nota_final <- (correctas * 5) + (incorrectas * -1) + (en_blanco * 0)
+    Escribir "--------------------------------------------"
+    Escribir "Resumen de puntaje:"
+    Escribir "Puntos por aciertos: ", correctas * 5
+    Escribir "Puntos por errores: ", incorrectas * -1
+    Escribir "Puntos por blanco: 0"
+    Escribir "--------------------------------------------"
+    Escribir "EL RESULTADO FINAL OBTENIDO ES: ", nota_final
+    Escribir "--------------------------------------------"
+FinAlgoritmo
