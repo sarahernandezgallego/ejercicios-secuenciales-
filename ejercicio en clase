@@ -1,0 +1,28 @@
+Algoritmo numeroprimo
+	Definir nume, divisor, residuo Como Entero
+	Definir primo Como Lógico
+	Escribir 'Ingrese un numero entero:'
+	Leer nume
+	Si nume<=1 Entonces
+		Escribir 'El numero no es primo'
+	SiNo
+		divisor <- 2
+		primo <- Verdadero
+		Mientras divisor<nume Y primo=Verdadero Hacer
+			residuo <- nume
+			Mientras residuo>0 Hacer
+				residuo <- residuo-divisor
+			FinMientras
+			Si residuo=0 Entonces
+				primo <- Falso
+			SiNo
+				divisor <- divisor+1
+			FinSi
+		FinMientras
+		Si primo=Verdadero Entonces
+			Escribir 'El numero es primo'
+		SiNo
+			Escribir 'El numero no es primo'
+		FinSi
+	FinSi
+FinAlgoritmo
