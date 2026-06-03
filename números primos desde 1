@@ -1,0 +1,40 @@
+Algoritmo MostrarPrimos
+    Definir limite, actual, divisor, residuo Como Entero
+    Definir primo Como Lógico
+    
+    Escribir "Ingrese un numero entero limite:"
+    Leer limite
+    
+    Si limite <= 1 Entonces
+        Escribir "No hay numeros primos en el rango."
+    SiNo
+        Escribir "Los numeros primos hasta ", limite, " son:"
+        actual = 2
+
+        Mientras actual <= limite Hacer
+            divisor = 2
+            primo = Verdadero
+
+            Mientras divisor < actual Y primo = Verdadero Hacer
+
+                residuo = actual
+                Mientras residuo >= divisor Hacer
+                    residuo = residuo - divisor
+                FinMientras
+
+                Si residuo = 0 Entonces
+                    primo = Falso
+                SiNo
+
+                    divisor = divisor + 1
+                FinSi
+            FinMientras
+
+            Si primo = Verdadero Entonces
+                Escribir actual
+            FinSi
+
+            actual = actual + 1
+        FinMientras
+    FinSi
+FinAlgoritmo
