@@ -1,0 +1,14 @@
+Algoritmo convierte_numeros
+	//realizarun programa que determine la mayoria de edad 
+	Escribir  "este progrma calcula si eres mayor de edad"
+	Escribir "buenos dias"
+	Escribir  "digite su nombre:"
+	Leer nombre
+	Escribir "digite su edad:"
+	Leer edad1 
+	si edad1 >= 18 Entonces
+		Escribir "la persona es mayor de edad"
+	SiNo
+		Escribir "la persona es menor de edad"
+	FinSi
+FinAlgoritmo
